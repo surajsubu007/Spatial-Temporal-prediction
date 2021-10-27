@@ -5,7 +5,7 @@
 This project aims to build a model which takes in scalar inputs of latitude, longitude, time at which the prediction is to be made and the atmospheric parameter to be predicted to get a predicted altitude profile of that atmospheric parameter.
 ****
 #### Data set over view
-The dataset used in this project was taken from the NCMRWF website which is publically accessible.
+The dataset used in this project was taken from the NCMRWF website (https://rds.ncmrwf.gov.in/datasets) which is publically accessible.
 In this dataset, after preprocessing, time is considered in seconds from the start of the year and the coordinates in degrees. The datset has 24 different pressure levels, 4 latitude variations, 4 longitued variations and 2726 timesteps.
 
 ****

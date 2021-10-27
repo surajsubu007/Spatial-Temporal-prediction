@@ -1,0 +1,26 @@
+{	
+	"data_frame_generator":{
+					"nc_file_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/input/spatio_temporal_prediction/spatial_regression/2018.nc",
+					"output_file_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/spatial_regression"
+				},
+	
+
+	"regressor_inputs": {
+					"regressor_used":"GBR",
+					
+
+					"hyperparameter_tuning_timestep":"200",
+
+					"output_comparison_timestep":"700",
+
+					"output_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/spatial_regression",
+
+					"saved_model_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/spatial_regression/trained_model"
+
+				},	
+
+	"plotter_inputs": {
+					"regressor_output_to_plot":"GBR",
+					"output_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/spatial_regression/plots"
+				}
+}

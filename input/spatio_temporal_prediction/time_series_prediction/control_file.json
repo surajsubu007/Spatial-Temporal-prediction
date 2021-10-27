@@ -1,0 +1,39 @@
+{	
+
+	"regression_data_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/spatial_regression",
+	"dataframe_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/spatial_regression",
+
+	"arima_inputs":{
+				"spatial_regressor_selection":"GBR",
+				"altitude_level":"10",
+				"test_size":"500",
+				"output_file_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/time_series_prediction/trained_model/ARIMA"
+
+			},
+	
+
+	"lstm_gru_inputs": {
+					"spatial_regressor_selection":"GBR",
+					"timeseries_model":"GRU",
+					"sequence_length":"150",
+					"altitude_level":"10",
+					"test_size":"500",
+					"epochs":"150",
+					"saved_model_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/time_series_prediction/trained_model"
+
+				},	
+
+	"plotter_inputs": {
+
+					"model_selection":"GRU",
+					"output_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/time_series_prediction/plots"
+				},
+
+	"spatio_temporal_plotter": {
+					"timeseries_model_selection":"GRU",
+					"output_path":"C:/Users/suraj/Desktop/zeus_projects/project_consolidation/IP/output/spatial_temporal_prediction/time_series_prediction/plots/spaital_temporal_plot",
+					"altitude_time_step":"324",
+					"altitude_range":{"lower":"110.83886754", "upper":"25907.45905467"}				
+
+					}
+}

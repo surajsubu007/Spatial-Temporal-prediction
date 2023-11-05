@@ -1,8 +1,8 @@
 # Spatial-Temporal Prediction
 ****
 ## conference paper link
- https://link.springer.com/book/10.1007/978-981-19-3938-9
- paper title: 3D spatial Temporal prediction of Atmospheric Quantities for Cn2 modelling.
+https://link.springer.com/book/10.1007/978-981-19-3938-9.
+paper title: 3D spatial Temporal prediction of Atmospheric Quantities for Cn2 modelling.
 ***
 ### Project Discription
 This project aims to build a model which takes in scalar inputs of latitude, longitude, time at which the prediction is to be made and the atmospheric parameter to be predicted to get a predicted altitude profile of that atmospheric parameter.
